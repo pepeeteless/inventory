@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Inventário</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+
+    <h1 class="title">Inventário</h1>
+
+    <div class="flexbox">
+    
+        <div class="criadorProduto">
+
+            <h5 id="cadastreSeuItem">Cadastre seu Item</h5>
+
+            <input id="inpNomeItem" placeholder="Nome do Item"><br></br>
+            <input id="inpIdItem" placeholder="Identificação"><br></br>
+            <input id="inpURL"  placeholder="URL da Imagem"><br></br>
+            <input id="inpValor" placeholder="Preço do Item"><br></br>
+
+            <button onclick="createIten()">Cadastrar Item</button>
+            
+        </div>
+
+    
+    <div class="inventario">
+        <div class="line">
+            <div class="cell" id="1x1">1</div>
+            <div class="cell" id="1x2">2</div>
+            <div class="cell" id="1x3">3</div>
+            <div class="cell" id="1x4">4</div>
+            <div class="cell" id="1x5">5</div>
+        </div>
+        <div class="line">
+            <div class="cell" id="2x1">6</div>
+            <div class="cell" id="2x2">7</div>
+            <div class="cell" id="2x3">8</div>
+            <div class="cell" id="2x4">9</div>
+            <div class="cell" id="2x5">10</div>
+        </div>
+        <div class="line">
+            <div class="cell" id="3x1">11</div>
+            <div class="cell" id="3x2">12</div>
+            <div class="cell" id="3x3">13</div>
+            <div class="cell" id="3x4">14</div>
+            <div class="cell" id="3x5">15</div>
+        </div>
+    </div>
+
+    <div class="addProduto">
+
+        <h5>Adicionar Produto Cadastrado</h5>
+
+        <input id="inpPos1" placeholder="Linha(números)"><br></br>
+        <input id="inpPos2" placeholder="Coluna(números)"><br></br>
+        <input id="inpItem" placeholder="Nome do Item Cadastrado"><br></br>
+
+        <button onclick="addLista()">Adicionar a Lista</button>
+
+    </div>
+
+    <script src='main.js'></script>
+</div>
+</body>
+</html>

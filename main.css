@@ -1,0 +1,58 @@
+
+
+.title {
+    text-align: center;
+}
+
+.inventario {
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #eee;
+
+}
+
+
+.addProduto{
+
+    border:1px solid #000;
+    position: fixed;
+    width: 270px;
+    height: 270px;
+    top: 50%;
+    right: 0%;
+    transform: translate(-2%,-50%);
+    background-color: #eee;
+    text-align: center;
+
+}
+
+.criadorProduto{
+    border:1px solid #000;
+    position: fixed;
+    width: 270px;
+    height: 270px;
+    top: 50%;
+    transform: translate(0%,-50%);
+    background-color: #eee;
+    text-align: center;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cell{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
